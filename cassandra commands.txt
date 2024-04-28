@@ -1,0 +1,5 @@
+1)cqlsh
+
+2)create keyspace my_keyspace with replication = {'class': 'SimpleStrategy', 'replication_factor': 3};
+
+3)use my_keyspace;
