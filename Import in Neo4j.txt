@@ -1,0 +1,2 @@
+LOAD CSV WITH HEADERS FROM 'file:///dblp-v10.csv' AS line FIELDTERMINATOR ','
+RETURN line
